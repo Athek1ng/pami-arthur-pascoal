@@ -1,0 +1,22 @@
+console.log("hello world");
+
+var variavel = "Hello";
+let variavel_01 = "olá";
+const variavel_02 = "Estou bem";
+
+console.log(variavel + variavel_01);
+console.log(variavel, variavel_02);
+
+variavel_01 = "olá!!!!!";
+console.log(variavel, variavel_02);
+
+//variavel const nao da pra mudar o valor ta ok?
+
+let test = "texto"
+console.log(" o tipo é: ", typeof(test));
+test = 2;
+console.log(" o tipo é: ", typeof(test));
+test = {nome: "Arthur", idade: 234};
+console.log(" o tipo é: ", typeof(test));
+test = [1, 2];
+console.log(" o tipo de array é: ", typeof(test));
